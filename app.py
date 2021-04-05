@@ -246,34 +246,8 @@ def wqi(name):
     elif(res<=59 and res>=19):
         waterquality=".....POOR, Not fit to drink, chances of you dying is high"
     
-    
-    
-    
-    
     #res=res+"  "+waterquality;
     return '<h2 style="color:steelblue">The Predicted WQI for the input year is %s' % res + waterquality
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @app.route('/',methods = ['POST', 'GET'])
