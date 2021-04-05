@@ -1,0 +1,76 @@
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+<style>
+body {
+	background: #5f2c82;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.zero {
+margin-top:15%;
+margin-left:77%
+}
+h2 {
+font-family:"Goudy Old Style";
+font-weight:bold;
+padding-left:30%;
+padding-top:5%;
+color:violet
+}
+
+h3{
+font-family:"Goudy Old Style";
+padding-left:30%;
+padding-top:2%;
+font-weight:bold;
+
+}
+.one {
+margin-left:30%;
+}
+
+.info {
+font-family:"Comic Sans MS";
+color:skyblue;
+margin-top:50px;
+}
+</style>
+
+
+</head>
+<body>
+	<form action="http://127.0.0.1:5000" method="post">
+<h2> Water Quality Index Analysis and Prediction </h2>
+<h3> Enter Year To Predict</h3>
+
+<div class="one">
+<input type="text" name="year" placeholder="YEAR" required="required" />
+<input type="submit" value="submit">
+</div>
+</form>
+
+<div class="container">
+<p class="info">
+<strong>Water </strong>is the most important of sources, vital for sustaining all kinds of life; however, it is in
+constant threat of pollution by life itself. Water is one of the most communicable mediums with a far
+reach. Rapid industrialization has consequently led to deterioration of water quality at an alarming
+rate. Poor water quality results have been known to be one of the major factors of escalation of
+harrowing diseases. As reported, in developing countries, 80% of the diseases are water borne diseases,
+which have led to 5 million deaths and 2.5 billion illnesses.
+<br>
+Water quality is currently estimated through expensive and time-consuming lab and statistical
+analyses, which require sample collection, transport to labs, and a considerable amount of time and calculation, which is quite ineffective given water is quite a communicable medium and time is of
+the essence if water is polluted with disease-inducing waste. The horrific consequences of water
+pollution necessitate a quicker and cheaper alternative.
+<br>
+In this regard, the main motivation this model tries to provide alternative method
+based on supervised machine learning for the efficient prediction of water quality in real-time.
+</p>
+<p class="zero">
+<a href="https://www.kaggle.com/anbarivan/indian-water-quality-data"> MODEL IS TRAINED FROM THIS DATASET </a>  </p>
+</div>
+</body>
+</html>
